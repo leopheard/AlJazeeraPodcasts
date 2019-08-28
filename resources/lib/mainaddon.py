@@ -13,7 +13,7 @@ def get_soup4(url4):
     soup4 = BeautifulSoup(page.text, 'html.parser')
     print("type: ", type(soup4))
     return soup4
-get_soup4("http://feeds.soundcloud.com/users/soundcloud:users:338760306/sounds.rss")
+get_soup4("http://feeds.aljazeera.net/podcasts/101eastHD")
 def get_soup5(url5):
     page = requests.get(url5)
     soup5 = BeautifulSoup(page.text, 'html.parser')

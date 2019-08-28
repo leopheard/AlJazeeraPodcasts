@@ -3,8 +3,8 @@ from resources.lib import mainaddon
 
 plugin = Plugin()
 URL1 = "http://aljazeera-eng-apple-live.adaptive.level3.net/apple/aljazeera/english/160audio.m3u8" #LIVE-AUDIO-ENGLISH
-URL2 = "https://english.streaming.aljazeera.net/aljazeera/english2/index576_07370.ts" #LIVE-VIDEO-ENGLISH
-#ALT "http://aljazeera-eng-apple-live.adaptive.level3.net/apple/aljazeera/english/160audio/160_040219_020939_1599111.aac"
+#URL2 = "https://english.streaming.aljazeera.net/aljazeera/english2/index576_07370.ts" #LIVE-VIDEO-ENGLISH
+URL2 = "http://aljazeera-eng-apple-live.adaptive.level3.net/apple/aljazeera/english/160audio/160_040219_020939_1599111.aac" #ALT-VIDEO
 URL3 = "http://feeds.soundcloud.com/users/soundcloud:users:338760306/sounds.rss" #ALL-JETTY-NETWORK
 URL4 = "http://feeds.aljazeera.net/podcasts/101eastHD" #101-EAST
 URL5 = "http://feeds.aljazeera.net/podcasts/aljazeeracorrespondentHD" #AJ-CORRESPONDENT
@@ -136,7 +136,7 @@ def episodes5():
     soup5 = mainaddon.get_soup5(URL5)
     playable_podcast5 = mainaddon.get_playable_podcast5(soup5)
     items = mainaddon.compile_playable_podcast5(playable_podcast5)
-    return items
+    return item
 
 @plugin.route('/episodes6/')
 def episodes6():
