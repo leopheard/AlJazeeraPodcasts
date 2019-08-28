@@ -1,0 +1,101 @@
+# Kodi Media Center language file
+# Addon Provider: leopheard
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: leopheard@gmail.com\n"
+"POT-Creation-Date: 2019-08-12 HO:MI+ZONE\n"
+"PO-Revision-Date: 2019-08-12 HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30001"
+msgid "AJ - live audio (English)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "AJ - live video (English)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "All Jetty Network"
+msgstr ""
+
+msgctxt "#30004"
+msgid "101 East"
+msgstr ""
+
+msgctxt "#30005"
+msgid "AJ Correspondent"
+msgstr ""
+
+msgctxt "#30006"
+msgid "AJ Documentaries"
+msgstr ""
+
+msgctxt "#30007"
+msgid "AJ World"
+msgstr ""
+
+msgctxt "#30008"
+msgid "AJ Your World"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Counting The Cost"
+msgstr ""
+
+msgctxt "#30010"
+msgid "The Debrief"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Game Of Our Lives"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Head To Head"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Inside Story"
+msgstr ""
+
+msgctxt "#30014"
+msgid "People & Power"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Talk To Al Jazeera"
+msgstr ""
+
+msgctxt "#30016"
+msgid "TechKnow"
+msgstr ""
+
+msgctxt "#30017"
+msgid "The Listening Post"
+msgstr ""
+
+msgctxt "#30018"
+msgid "The Stream"
+msgstr ""
+
+msgctxt "#30019"
+msgid "The Take"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Upfront"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Witness"
+msgstr ""
+
+# empty string with id 32003
