@@ -6,3 +6,8 @@ __Version 1.0.1__
 
 1. Used alternate video live stream
 2. Fixed East 101 link
+
+__Version 1.0.2__
+
+1. Added <video> tag to addon.xml
+2. Improved logo
