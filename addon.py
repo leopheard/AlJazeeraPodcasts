@@ -44,75 +44,75 @@ def main_menu():
             'thumbnail': "https://i1.sndcdn.com/avatars-000365237387-f0k2ci-original.jpg"},
         {
             'label': plugin.get_string(30004),
-            'path': plugin.url_for('all_episodes4'),
+            'path': plugin.url_for('episodes4'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2014/10/26/8e067a0f8b304217b468cbef6d3b28b3_18.jpg"},
         {
             'label': plugin.get_string(30005),
-            'path': plugin.url_for('all_episodes5'),
+            'path': plugin.url_for('episodes5'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2014/10/26/e0c2ca23a1a54c07b827104aa57ada83_18.jpg"},
         {
             'label': plugin.get_string(30006),
-            'path': plugin.url_for('all_episodes6'),
+            'path': plugin.url_for('episodes6'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2011/11/2/20111121156257797_20.jpg"},
         {
             'label': plugin.get_string(30007),
-            'path': plugin.url_for('all_episodes7'),
+            'path': plugin.url_for('episodes7'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2014/10/26/beefc69a4b0d4b6aac13938ee98f0103_18.jpg"},
         {
             'label': plugin.get_string(30008),
-            'path': plugin.url_for('all_episodes8'),
+            'path': plugin.url_for('episodes8'),
             'thumbnail': "https://content.production.cdn.art19.com/images/fe/0f/7b/ab/fe0f7bab-cb97-48aa-bd74-40b01672b318/1dacf16442ed4c4784afb1c456855f18ba15dadfc5e4da9e46df8c9075a9bbeae716b7f2cfcb7c3cc3ce53d8c906f24279a8f8a738f554c3263ecc00ee275d36.jpeg"},
         {
             'label': plugin.get_string(30009),
-            'path': plugin.url_for('all_episodes9'),
+            'path': plugin.url_for('episodes9'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2014/10/26/306b83e403044e08a885ed6de19499e3_18.jpg"},
         {
             'label': plugin.get_string(30010),
-            'path': plugin.url_for('all_episodes10'),
+            'path': plugin.url_for('episodes10'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2017/8/27/35c83b0e839047f7901d5d939450d199_18.jpg"},
         {
             'label': plugin.get_string(30011),
-            'path': plugin.url_for('all_episodes11'),
+            'path': plugin.url_for('episodes11'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2018/3/15/3ce79cc3f72d47c399210733a7f64a67_18.jpg"},
         {
             'label': plugin.get_string(30012),
-            'path': plugin.url_for('all_episodes12'),
+            'path': plugin.url_for('episodes12'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2014/10/26/3bb4d9be598a4521a13575ac20a49a59_18.jpg"},
         {
             'label': plugin.get_string(30013),
-            'path': plugin.url_for('all_episodes13'),
+            'path': plugin.url_for('episodes13'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2014/10/26/71fd4736163a411a88d01bfb9b65c601_18.jpg"},
         {
             'label': plugin.get_string(30014),
-            'path': plugin.url_for('all_episodes14'),
+            'path': plugin.url_for('episodes14'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2014/10/26/53be074342184ff989d7de2b1e784941_18.jpg"},
         {
             'label': plugin.get_string(30015),
-            'path': plugin.url_for('all_episodes15'),
+            'path': plugin.url_for('episodes15'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2014/10/26/ef823a58504c4e87aea5d433502fa5b5_18.jpg"},
         {
             'label': plugin.get_string(30016),
-            'path': plugin.url_for('all_episodes16'),
+            'path': plugin.url_for('episodes16'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2014/11/11/8a0e1868d6774cc0ae67a260a852f498_18.jpg"},
         {
             'label': plugin.get_string(30017),
-            'path': plugin.url_for('all_episodes17'),
+            'path': plugin.url_for('episodes17'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2014/10/26/3234a2b34a644e11ad4a06b7c9ef98f6_18.jpg"},
         {
             'label': plugin.get_string(30018),
-            'path': plugin.url_for('all_episodes18'),
+            'path': plugin.url_for('episodes18'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2011/5/31/2011531843277371_20.jpg"},
         {
             'label': plugin.get_string(30019),
-            'path': plugin.url_for('all_episodes19'),
+            'path': plugin.url_for('episodes19'),
             'thumbnail': "https://www.aljazeera.com/mritems/Images/2018/11/18/dca00d429cf44dce88f92dbb3cdbf077_6.jpg"},
         {
             'label': plugin.get_string(30020),
-            'path': plugin.url_for('all_episodes20'),
+            'path': plugin.url_for('episodes20'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2015/8/17/1f735ca175bd440d9f36e154be17633d_18.jpg"},
         {
             'label': plugin.get_string(30021),
-            'path': plugin.url_for('all_episodes21'),
+            'path': plugin.url_for('episodes21'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2014/10/26/04cca55fea2247b2a15d32ca7227291c_18.jpg"},
    ]
     return items
