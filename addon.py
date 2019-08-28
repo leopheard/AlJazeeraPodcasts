@@ -136,7 +136,7 @@ def episodes5():
     soup5 = mainaddon.get_soup5(URL5)
     playable_podcast5 = mainaddon.get_playable_podcast5(soup5)
     items = mainaddon.compile_playable_podcast5(playable_podcast5)
-    return item
+    return items
 
 @plugin.route('/episodes6/')
 def episodes6():
