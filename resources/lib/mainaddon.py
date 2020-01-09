@@ -116,6 +116,11 @@ def get_soup21(url21):
     print("type: ", type(soup21))
     return soup21
 get_soup21("http://feeds.aljazeera.net/podcasts/witnessHD")
+def get_soup22(url22):
+    page = requests.get(url22)
+    soup22 = BeautifulSoup(page.text, 'html.parser')
+    print("type: ", type(soup22))
+    return soup22
 
 def get_playable_podcast3(soup3):
     subjects = []
