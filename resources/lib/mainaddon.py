@@ -710,3 +710,34 @@ def compile_playable_podcast21(playable_podcast21):
             'is_playable': True,
     })
     return items
+
+def get_playable_podcast22(soup22):
+    subjects = []
+    for content in soup22.find_all('item'):
+        try:        
+            link = content.find('enclosure')
+            link = link.get('url')
+            print("\n\nLink: ", link)
+            thumbnail = content.find('itunes:image')
+            thumbnail = thumbnail.get('href')
+            title = content.find('title')
+            title = title.get_text()
+        except AttributeError:
+            continue
+        item = {
+                'url': link,
+                'title': title,
+                'thumbnail': thumbnail,
+        }
+        subjects.append(item) 
+    return subjects
+def compile_playable_podcast22(playable_podcast22):
+    items = []
+    for podcast in playable_podcast22:
+        items.append({
+            'label': podcast['title'],
+            'thumbnail': podcast['thumbnail'],
+            'path': podcast['url'],
+            'is_playable': True,
+    })
+    return items
