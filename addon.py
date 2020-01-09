@@ -9,6 +9,7 @@ URL3 = "http://feeds.soundcloud.com/users/soundcloud:users:338760306/sounds.rss"
 URL4 = "http://feeds.aljazeera.net/podcasts/101eastHD" #101-EAST
 URL5 = "http://feeds.aljazeera.net/podcasts/aljazeeracorrespondentHD" #AJ-CORRESPONDENT
 URL6 = "http://feeds.aljazeera.net/podcasts/featureddocumentariesHD" #AJ-DOC
+URL22 = "https://rss.art19.com/al-jazeera-investigates" #AJ-INVESTIGATES
 URL7 = "http://feeds.aljazeera.net/podcasts/aljazeeraworldHD" #AJ-WORLD
 URL8 = "https://rss.art19.com/al-jazeera-your-world" #AJ-YOURWORLD
 URL9 = "http://feeds.aljazeera.net/podcasts/countingthecostAU" #COUNTING-THE-COST
@@ -54,6 +55,10 @@ def main_menu():
             'label': plugin.get_string(30006),
             'path': plugin.url_for('episodes6'),
             'thumbnail': "https://www.aljazeera.com/mritems/imagecache/mbdresplarge/mritems/Images/2011/11/2/20111121156257797_20.jpg"},
+        {
+            'label': plugin.get_string(30022),
+            'path': plugin.url_for('episodes22'),
+            'thumbnail': "https://is5-ssl.mzstatic.com/image/thumb/Podcasts123/v4/3d/f4/23/3df42350-844e-8e08-264e-b26c2dc97d3d/mza_17312054508823443213.jpeg/600x600bb.jpg"},
         {
             'label': plugin.get_string(30007),
             'path': plugin.url_for('episodes7'),
@@ -248,6 +253,13 @@ def episodes21():
     soup21 = mainaddon.get_soup21(URL21)
     playable_podcast21 = mainaddon.get_playable_podcast21(soup21)
     items = mainaddon.compile_playable_podcast21(playable_podcast21)
+    return items
+
+@plugin.route('/episodes22/')
+def episodes22():
+    soup22 = mainaddon.get_soup21(URL22)
+    playable_podcast22 = mainaddon.get_playable_podcast22(soup22)
+    items = mainaddon.compile_playable_podcast22(playable_podcast22)
     return items
 
 if __name__ == '__main__':

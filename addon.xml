@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.aljazeerapodcasts" name="Al Jazeera" version="1.0.2" provider-name="leopheard">
+<addon id="plugin.audio.aljazeerapodcasts" name="Al Jazeera" version="1.0.3" provider-name="leopheard">
   <requires>
     <import addon="xbmc.python" version="2.26.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -22,11 +22,11 @@
     <source>https://github.com/leopheard/AlJazeeraPodcasts</source>
     <website>https://www.aljazeera.com/</website>
         	<assets>
-			<icon>resources/media/icon.png</icon>
-			<fanart>resources/media/fanart.jpeg</fanart>
-			<screenshot>resources/media/1.png</screenshot>
-			<screenshot>resources/media/icon.png</screenshot>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
 			<screenshot>resources/media/1.jpg</screenshot>
+			<screenshot>resources/media/icon.jpg</screenshot>
+			<screenshot>resources/media/2.jpg</screenshot>
 		</assets>
   </extension>
 </addon>
